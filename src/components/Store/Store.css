@@ -1,0 +1,110 @@
+/* src/components/Store/Store.css */
+
+.store-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .store-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .store-item h2 {
+    font-size: 1.5em;
+  }
+  
+  .item-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .store-item button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .store-item button:hover {
+    background-color: #45a049;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  form input {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  form button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Additional styling for the cart and form */
+  h2 {
+    margin-top: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 5px 0;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+
+
+  /* src/components/Store/Store.css */
+
+/* Existing CSS code... */
+
+.show-cart-button {
+    position: absolute; /* Positioning the button */
+    top: 20px; /* Distance from the top */
+    right: 20px; /* Distance from the right */
+    background-color: #808080; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    padding: 20px 10px 20px 1100px; /* Padding for the button */
+    cursor: pointer; /* Change cursor to pointer */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  .floating-cart {
+    position: fixed; /* Fixed position for the cart */
+    top: 95px; /* Distance from the top */
+    right: 20px; /* Distance from the right */
+    background-color: white; /* Background color */
+    border: 1px solid #ccc; /* Border for the cart */
+    padding: 15px; /* Padding inside the cart */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow for the cart */
+    z-index: 1000; /* Ensure it appears above other elements */
+  }
+  
+  .checkout-form {
+    margin-top: 20px; /* Space above the form */
+  }
